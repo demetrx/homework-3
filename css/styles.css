@@ -73,8 +73,12 @@ a {
     color: inherit;
 }
 
-.auth-nav a, footer a{
+.auth-nav a{
     color: var(--paragraph-text-color);
+}
+
+footer a{
+color: rgba(255, 255, 255, 0.6);
 }
 
 .list{
@@ -177,6 +181,7 @@ address{
     border-radius: 4px;
     border: 0;
     cursor: pointer;
+    font-family: inherit;
 }
 .filter button:hover,
 .filter button:focus {
@@ -201,15 +206,14 @@ address{
     padding:0 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 94px;
     box-sizing: border-box;
 }
 
-.hero .container{
+.hero{
     padding: 200px 0;
 }
-.our-team .container,
-header .container{
+.our-team,
+header{
     margin-bottom: 0;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -229,7 +233,7 @@ header .container{
     padding-bottom: 30px;
 }
 
-.our-team .container{
+.our-team{
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -250,27 +254,24 @@ p{
 }
 .portfolio h2{
     text-align: left;
-    margin-top: 20px;
     margin-bottom: 4px;
-    margin-left: 24px;
 }
 
-.portfolio p{
-    margin-left: 24px;
-}
-
-.portfolio .container{
+.portfolio{
     padding-top: 94px;
     padding-bottom: 94px;
     text-align: center;
     margin-bottom: 0;
 }
 
+.projects div{
+    padding: 20px 24px;
+}
+
 .portfolio li:not(.filter li){
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     text-align: left;
-    padding-bottom: 20px;
 }
 .site-nav,
 .auth-nav,
@@ -298,6 +299,15 @@ ul{
 .our-team ul{
     display: flex;
     justify-content: space-between;
+}
+
+.ocupation{
+    padding-bottom: 94px;
+}
+
+.advantages{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 address li{
